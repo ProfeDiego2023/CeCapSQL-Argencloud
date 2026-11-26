@@ -1,0 +1,82 @@
+/* ═══════════════════════════════════════════════════════════════
+   CeCap — Paleta Opción 2: Verde / Morado / Rojo
+   Colores: #C7E4CF #5D5E70 #504254 #3C313F #DD4841
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Fondo y superficies ── */
+  --bg-gradient-start: #504254;
+  --bg-gradient-end:   #3C313F;
+  --glass-bg:          rgba(255, 255, 255, 0.08);
+  --glass-bg-solid:    rgba(12, 10, 14, 0.85);
+  --glass-border:      rgba(255, 255, 255, 0.10);
+  --glass-blur:        blur(12px);
+  --surface-dark:      rgba(10, 8, 12, 0.88);
+
+  /* ── Texto ── */
+  --text-main:         #F0EDF2;
+  --text-muted:        rgba(199, 228, 207, 0.65);
+  --text-label:        #C7E4CF;
+  --text-subtle:       rgba(240, 237, 242, 0.55);
+
+  /* ── Acentos ── */
+  --accent-primary:    #DD4841;
+  --accent-primary-hover: #C0302A;
+  --accent-green:      #C7E4CF;
+  --accent-green-dim:  rgba(199, 228, 207, 0.18);
+  --accent-secondary:  #5D5E70;
+  --accent-input-focus: #5D5E70;
+
+  /* ── Botones ── */
+  --btn-primary-bg:    #DD4841;
+  --btn-primary-hover: #C0302A;
+  --btn-primary-gradient: linear-gradient(135deg, #DD4841, #B03030);
+  --btn-success-bg:    #198754;
+  --btn-success-hover: #157347;
+  --btn-danger-bg:     #DC3545;
+  --btn-danger-hover:  #BB2D3B;
+  --btn-outline-color: rgba(199, 228, 207, 0.55);
+  --btn-outline-hover: rgba(199, 228, 207, 0.15);
+
+  /* ── Inputs ── */
+  --input-bg:          rgba(0, 0, 0, 0.35);
+  --input-bg-light:    rgba(255, 255, 255, 0.08);
+  --input-border:      rgba(255, 255, 255, 0.15);
+  --input-focus-border: #5D5E70;
+  --input-focus-shadow: rgba(93, 94, 112, 0.25);
+
+  /* ── Tablas ── */
+  --table-header-bg:   rgba(80, 66, 84, 0.45);
+  --table-row-hover:   rgba(199, 228, 207, 0.06);
+  --table-border:      rgba(255, 255, 255, 0.08);
+
+  /* ── Badges / Estados ── */
+  --badge-success:     #198754;
+  --badge-danger:      #DC3545;
+  --badge-warning:     #FFC107;
+  --badge-info:        #5D5E70;
+  --badge-online:      #C7E4CF;
+  --badge-offline:     #DD4841;
+
+  /* ── Errores / Alertas ── */
+  --error-text:        #DD4841;
+  --error-bg:          rgba(221, 72, 65, 0.15);
+  --error-border:      rgba(221, 72, 65, 0.35);
+  --success-text:      #C7E4CF;
+  --success-bg:        rgba(199, 228, 207, 0.12);
+  --warning-text:      #FFD166;
+  --warning-bg:        rgba(255, 209, 102, 0.12);
+
+  /* ── Footer ── */
+  --footer-bg:         linear-gradient(90deg, rgba(0,0,0,.45), rgba(221,72,65,.12), rgba(0,0,0,.45));
+  --footer-link:       #DD4841;
+  --footer-link-hover: #C7E4CF;
+
+  /* ── Modal ── */
+  --modal-backdrop:    rgba(0, 0, 0, 0.72);
+  --modal-bg:          rgba(12, 10, 14, 0.97);
+  --modal-border:      rgba(255, 255, 255, 0.08);
+
+  /* ── Select options ── */
+  --select-option-bg:  #2A2230;
+}
